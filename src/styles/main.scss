@@ -1,0 +1,48 @@
+$blue: #86ddf3;
+
+body,
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: "PT Serif", serif;
+}
+
+p {
+    font-family: "PT Sans", sans-serif;
+}
+
+.header {
+    background-image: url("/header.jpg");
+    background-size: cover;
+    color: white;
+    height: 30rem;
+
+    display: flex;
+    flex-direction: column;
+
+    &__main-heading,
+    &__subheading {
+        font-weight: 100;
+    }
+
+    &__main-heading {
+        margin-top: 180px;
+        font-size: 2rem;
+    }
+
+    &__subheading {
+        font-weight: 100;
+        font: 1.5rem;
+    }
+}
+
+.header__text {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 20px 0;
+    padding: 0 8px;
+}

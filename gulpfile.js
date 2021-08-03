@@ -23,18 +23,6 @@ function cssTask() {
     .pipe(gulp.dest("./dist/css"));
 }
 
-//Javascript tasks
-// async function babelTask() {
-//   src("src/scripts/**/*.js")
-//     .pipe(
-//       babel({
-//         presets: ["@babel/preset-env"],
-//       })
-//     )
-//     .pipe(terser())
-//     .pipe(dest("dist/scripts"));
-// }
-
 //Browser tasks
 function browsersyncServer(cb) {
   browsersync.init({
