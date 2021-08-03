@@ -1,0 +1,36 @@
+{
+  "name": "layoutteststuntcoders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cehicm/stuntCodersLayoutTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cehicm/stuntCodersLayoutTest/issues"
+  },
+  "homepage": "https://github.com/cehicm/stuntCodersLayoutTest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "browser-sync": "^2.27.5",
+    "cssnano": "^5.0.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-terser": "^2.0.1"
+  },
+  "dependencies": {
+    "sharp": "^0.28.3"
+  }
+}
