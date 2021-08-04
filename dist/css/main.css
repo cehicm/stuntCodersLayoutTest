@@ -122,3 +122,61 @@ p {
 .container__end-special-text span {
   color: white;
 }
+
+@media screen and (max-width: 400px) {
+  .header {
+    height: 300px;
+  }
+
+  .container__main {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 20px;
+  }
+  .container__main .box__number-one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .container__main .box__number-two {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .container__main .box__number-three {
+    grid-column: 1;
+    grid-row: 4;
+    margin-top: -70px;
+  }
+  .container__main .box__number-four {
+    grid-column: 2;
+    grid-row: span 3;
+  }
+  .container__main .box__img-one {
+    height: 150px;
+  }
+  .container__main .box__img-two {
+    grid-column: 2;
+    grid-row: 3/4;
+    height: 300px;
+  }
+  .container__main .box__img-three {
+    grid-row: span 2;
+    grid-row-start: 6;
+    margin-top: -20px;
+  }
+  .container__main .box__text h2 {
+    font-size: 2rem;
+  }
+  .container__main .box__text p {
+    font-size: 1rem;
+  }
+  .container__main .box__text-two {
+    margin-top: -90px;
+  }
+  .container__main .box__text-three {
+    grid-row: span 2;
+    grid-row-start: 4;
+  }
+  .container__main .box__text-four {
+    margin: 0;
+    grid-row: 7;
+  }
+}
