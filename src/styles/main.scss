@@ -31,7 +31,7 @@ p {
         font-size: 6rem;
     }
     &__sub-heading {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -72,8 +72,8 @@ p {
         }
 
         &-four {
-            grid-row: 4/6;
             grid-column: 2;
+            grid-row: 4/6;
         }
     }
 
@@ -88,8 +88,7 @@ p {
 
         &-four {
             grid-column: 3;
-            grid-row-start: 3;
-            grid-row-end: 5;
+            grid-row: 3/5;
         }
     }
 
@@ -120,7 +119,7 @@ p {
     }
 
     h2 {
-        font-size: 3rem;
+        font-size: 5rem;
         margin-left: 5px;
     }
 
@@ -167,9 +166,20 @@ p {
         font-size: 1.2rem;
     }
 
-    .container__end-normal-text {
-        font-size: 1rem;
-        margin: 0;
+    .container__main .box__text h2,
+    .container__end h2 {
+        font-size: 2rem;
+    }
+
+    .container__end {
+        &-normal-text {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        &-special-text {
+            font-size: 3rem;
+        }
     }
 }
 
@@ -184,10 +194,7 @@ p {
             margin: 0;
         }
 
-        &__sub-heading {
-            font-size: 1rem;
-        }
-
+        &__sub-heading,
         &__text {
             font-size: 1rem;
         }
@@ -198,15 +205,6 @@ p {
         grid-gap: 20px;
 
         .box__number {
-            &-one {
-                grid-column: 1;
-                grid-row: 1;
-            }
-            &-two {
-                grid-column: 2;
-                grid-row: 2;
-            }
-
             &-three {
                 grid-column: 1;
                 grid-row: 4;
@@ -262,15 +260,8 @@ p {
         display: flex;
         flex-direction: column;
 
-        &-regular-text {
-            font-size: 1.5rem;
-            padding: 10px;
-        }
-
         &-normal-text {
             font-size: 1rem;
-            margin-right: 0;
-            padding: 0px 13px;
         }
 
         &-special-text {
