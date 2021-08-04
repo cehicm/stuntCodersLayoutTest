@@ -1,10 +1,7 @@
-$blue: #86ddf3;
+//Normalize SCSS
+@use "./normalize";
 
-body,
-* {
-    padding: 0;
-    margin: 0 auto;
-}
+$blue: #86ddf3;
 
 h1,
 h2 {
@@ -151,13 +148,13 @@ p {
 //RESPONSIVE
 @media screen and(max-width: 400px) {
     .header {
-        height: 300px;
+        height: 20rem;
         justify-content: center;
         text-align: center;
 
         &__main-heading {
-            margin: 0;
             font-size: 2rem;
+            margin: 0;
         }
 
         &_sub-heading {
