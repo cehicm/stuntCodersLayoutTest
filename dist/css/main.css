@@ -73,7 +73,7 @@ p {
   grid-row: 2;
 }
 .container__main .box__img-three {
-  grid-row: span 2;
+  grid-row: span 3;
 }
 .container__main .box__img-four {
   grid-column: 3;
